@@ -1,0 +1,49 @@
+.signup{
+    background-image: url('https://images.unsplash.com/photo-1557682257-2f9c37a3a5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.signuplogo{
+    width: 200px;
+    object-fit: contain;
+}
+.loginPara{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+}
+input{
+    padding: 5px;
+    margin: 3px 0;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#submitbtn{
+    background-color: rgb(64, 156, 214);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.form2{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
